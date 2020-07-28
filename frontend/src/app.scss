@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Noto_Sans';
+  src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
+}
+@font-face{
+  font-family: 'Noto_Sans_B';
+  src: url("fonts/Noto_Sans/NotoSans-Bold.ttf");
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto_Sans';
+  font-size: 1.1rem;
+
+}
+

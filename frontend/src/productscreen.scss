@@ -1,0 +1,32 @@
+.back-to{padding: 2rem;}
+.details{display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 2rem;
+        }
+.details-image{flex: 2 1 40rem;
+                img{width: 100%;
+                    max-width: 40rem;}}
+.details-info{flex:1 1 25rem;
+    ul{list-style: none;
+        padding: 0;}
+    li{margin: 1rem;}
+}
+.details-action{flex: 1 1 20rem;
+                border-radius: 10px;
+                border: 1px solid rgb(175, 173, 173);
+    ul{list-style: none;
+        padding: 0;
+    li:last-child{
+        display: flex;
+        flex-direction: column;
+    }}
+    li{margin: 1rem;}
+    }
+    
+.add-btm{
+    font-size: 1rem;
+    background-color: rgba(161, 161, 161, 0.459);
+    border: none;
+}
